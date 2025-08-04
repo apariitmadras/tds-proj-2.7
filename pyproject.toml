@@ -1,0 +1,13 @@
+[project]
+name = "data-analyst-agent"
+version = "0.1.0"
+
+dependencies = [
+  "fastapi",
+  "python-multipart",
+  "uvicorn",
+  "google-genai",
+  "playwright",
+  "beautifulsoup4",
+  "httpx"
+]
