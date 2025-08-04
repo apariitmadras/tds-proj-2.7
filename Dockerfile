@@ -14,7 +14,6 @@ WORKDIR /app
 
 # Copy installed site-packages and entrypoints from builder
 COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
-COPY --from=builder /usr/local/bin /usr/local/bin
 
 # Your application code
 COPY tools/scrape_website.py ./
